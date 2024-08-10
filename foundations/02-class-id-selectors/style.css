@@ -1,0 +1,27 @@
+/* Class for the paragraphs */
+.odd {
+    background-color: lightpink;
+    /* If a font name contains spaces it gets put in quotes,
+    otherwise just leave it unquoted
+    */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* The third and fourth elements both have a font size of 24px so this is a class that they share */
+/* classes are identified with a . character */
+.adjust-font-size {
+    font-size: 24px;
+}
+
+/* Number2 ID styling */
+#number2-styling {
+    font-size: 36px;
+    color: blue;
+}
+
+/* Number4 ID styling */
+#number4-styling {
+    font-weight: bold;
+    background-color: lightgreen;
+
+}
