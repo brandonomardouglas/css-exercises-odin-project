@@ -1,0 +1,12 @@
+/* Element with both the avatar and proportioned classes
+300 pixels wide, and a height so that it retains its original square
+proportions */
+
+.avatar.proportioned {
+    width: 800px;
+    /* Keep aspect ratio based on width */
+    /*height: auto;*/
+
+
+
+}
