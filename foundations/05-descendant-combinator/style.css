@@ -1,0 +1,40 @@
+/* Container is the ancestor of text so only they will be styled */
+/* This uses class selectors 
+.container .text {
+
+}
+*/
+/* This descendant combinator alters the type selectors
+Type  selector is for element name (like p for paragraph), 
+it will target every element with this name and apply style to it
+*/
+
+/*
+div p {
+    background-color: red;
+
+}
+Above is an example of a element selector, div
+is the ancestor, and p is the child
+*/
+
+/* This is an example of combining a type selector and a class
+selector 
+
+div .text {
+    css information goes here
+}
+
+We add a . on the text as this is a class
+
+Could also have .container p
+
+
+*/
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
