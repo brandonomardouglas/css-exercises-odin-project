@@ -1,0 +1,37 @@
+/* 
+Background is grey
+Both buttons have a small border that's light grey
+Both buttons have the same font size
+Different color text colour
+Left button is uniquly bold
+Both buttons have a white padding around them
+*/
+
+/* Background colour of the webpage itself by altering body tag */
+body {
+    background-color: white;
+}
+/*Classes have . and ids have #/
+
+/* Grouping selectors for things in common*/
+.first-element-styling, .second-element-styling {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    border: 2px solid gray;
+   
+
+}
+
+/* class for first element */
+.first-element-styling {
+    background-color: black;
+    color:white;
+    
+
+}
+/* class for second element */
+.second-element-styling {
+    background-color: yellow;
+
+}
+
